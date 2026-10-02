@@ -1,0 +1,18 @@
+cat << 'EOF' > .gitignore
+# Fichiers objets et binaires
+obj/
+bin/
+*.o
+
+# Exécutable généré
+yellowFlash
+
+# Répertoires de documentation générés
+html/
+doc/
+
+# Fichiers temporaires éditeurs et OS
+*~
+.DS_Store
+*.swp
+EOF
